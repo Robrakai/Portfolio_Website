@@ -1,26 +1,19 @@
 @import "tailwindcss";
 
-:root {
-	/* Palette de couleurs moderne */
-	--color-primary: #646cff;
-	--color-primary-hover: #535bf2;
-	--color-bg: #0f0f11;
-	--color-surface: #1a1a1d;
-	--color-text: #ffffff;
-	--color-text-muted: #a1a1aa;
+@theme {
+	/* Palette de couleurs moderne - Deep Dark Blue & Soft Green */
+	--color-primary: #34d399; /* Vert doux (emerald-400) */
+	--color-primary-hover: #10b981; /* Vert plus soutenu (emerald-500) */
+	--color-bg: #0f172a; /* Bleu foncé profond (slate-900) */
+	--color-surface: #1e293b; /* Bleu foncé surface (slate-800) */
+	--color-surface-hover: #334155; /* Bleu foncé au survol (slate-700) */
+	--color-text: #f8fafc; /* Blanc cassé (slate-50) */
+	--color-text-muted: #94a3b8; /* Gris bleuté (slate-400) */
 
 	/* Typographie */
 	--font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
-	--line-height: 1.5;
-	--font-weight: 400;
-
-	/* Espacements */
-	--spacing-sm: 0.5rem;
-	--spacing-md: 1rem;
-	--spacing-lg: 2rem;
-	--spacing-xl: 4rem;
 
 	/* Bordures */
-	--radius-md: 8px;
+	--radius-xl: 1.5rem; /* Pour le bento */
 }
 
