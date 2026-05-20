@@ -92,19 +92,19 @@ export default function Hero({ variant = 'default' }: HeroProps) {
 						<div className="relative pl-6 border-l-2 border-primary/30">
 							<span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-surface border-2 border-primary"></span>
 							<div className="flex flex-col mb-1">
-								<h4 className="font-bold text-text text-lg hover:text-primary transition-colors cursor-default">[Titre du Poste]</h4>
-								<span className="text-sm font-medium text-primary mb-1">[Période, ex: 2022 - Présent]</span>
+								<h4 className="font-bold text-text text-lg hover:text-primary transition-colors cursor-default">[Etudiant developpement]</h4>
+								<span className="text-sm font-medium text-primary mb-1">[2023 - Présent]</span>
 							</div>
-							<p className="text-sm text-text-muted font-medium">[Nom de l'entreprise]</p>
+							<p className="text-sm text-text-muted font-medium">[Ecole 42]</p>
 							<p className="text-sm text-text-muted mt-2 line-clamp-3">[Brève description des responsabilités et réalisations clés.]</p>
 						</div>
 						<div className="relative pl-6 border-l-2 border-white/10">
 							<span className="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-surface border-2 border-white/20"></span>
 							<div className="flex flex-col mb-1">
-								<h4 className="font-bold text-text text-lg hover:text-primary transition-colors cursor-default">[Poste Précédent]</h4>
-								<span className="text-sm font-medium text-text-muted mb-1">[Période, ex: 2020 - 2022]</span>
+								<h4 className="font-bold text-text text-lg hover:text-primary transition-colors cursor-default">[Etudiant en Sciences de l'ingenieur]</h4>
+								<span className="text-sm font-medium text-text-muted mb-1">[2019 - 2023]</span>
 							</div>
-							<p className="text-sm text-text-muted font-medium">[Nom de l'entreprise]</p>
+							<p className="text-sm text-text-muted font-medium">[Prepa integree - IUT]</p>
 						</div>
 					</div>
 				</div>
@@ -117,11 +117,11 @@ export default function Hero({ variant = 'default' }: HeroProps) {
 						<div className="bg-bg/50 p-5 rounded-2xl border border-white/5">
 							<h4 className="text-sm font-bold text-primary mb-4 uppercase tracking-wider flex items-center gap-2">
 								<span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
-								[Catégorie 1, ex: Frontend]
+								[WEB - Frontend]
 							</h4>
-							<div className="flex flex-wrap gap-2">
-								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Compétence]</span>
-								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Compétence]</span>
+							<div className="flex flex-wrap flex-cent gap-2">
+								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[TypeScript]</span>
+								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Requete API]</span>
 								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Compétence]</span>
 							</div>
 						</div>
@@ -140,11 +140,11 @@ export default function Hero({ variant = 'default' }: HeroProps) {
 						<div className="bg-bg/50 p-5 rounded-2xl border border-white/5">
 							<h4 className="text-sm font-bold text-primary mb-4 uppercase tracking-wider flex items-center gap-2">
 								<span className="w-1.5 h-1.5 rounded-full bg-primary"></span>
-								[Catégorie 3, ex: Outils]
+								[Outils Annexes]
 							</h4>
 							<div className="flex flex-wrap gap-2">
-								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Compétence]</span>
-								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Compétence]</span>
+								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Github]</span>
+								<span className="px-3 py-1.5 bg-surface rounded-lg text-sm text-text-muted border border-white/5 hover:border-primary hover:text-primary hover:shadow-[0_0_10px_rgba(52,211,153,0.2)] transition-colors cursor-default shadow-sm">[Bash]</span>
 							</div>
 						</div>
 					</div>
@@ -153,7 +153,7 @@ export default function Hero({ variant = 'default' }: HeroProps) {
 				{/* Bento 5: Projets Réalisés (Col Span 3) */}
 				<div className="col-span-1 md:col-span-3 bg-surface rounded-[var(--radius-xl)] p-8 shadow-lg border border-white/5 hover:border-primary/30 transition-colors">
 					<h3 className="text-xl font-bold mb-6 text-text border-b border-white/10 pb-4 flex justify-between items-center">
-						<span>Projets Récents</span>
+						<span>Projets Principaux</span>
 						<button className="text-sm font-medium text-primary hover:text-primary-hover flex items-center gap-1 transition-colors bg-primary/10 px-3 py-1.5 rounded-lg border border-transparent hover:border-primary/50 hover:bg-primary/20">
 							Voir le portfolio détaillé <span className="text-lg leading-none">→</span>
 						</button>
@@ -161,19 +161,18 @@ export default function Hero({ variant = 'default' }: HeroProps) {
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
 						{/* Projet 1 */}
-						<a href="#" className="group rounded-2xl overflow-hidden bg-bg border border-white/5 hover:border-primary/50 hover:shadow-[0_0_30px_rgba(52,211,153,0.1)] transition-all flex flex-col h-full">
+						<a href="https://mylifehub.vercel.app" className="group rounded-2xl overflow-hidden bg-bg border border-white/5 hover:border-primary/50 hover:shadow-[0_0_30px_rgba(52,211,153,0.1)] transition-all flex flex-col h-full">
 							<div className="h-48 bg-gradient-to-br from-surface to-[var(--color-surface-hover)] relative overflow-hidden border-b border-white/5">
 								<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(52,211,153,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-								<div className="absolute inset-0 flex items-center justify-center text-text-muted/40 font-mono text-sm group-hover:scale-110 transition-transform duration-700">
-									[Espace Image Projet 1]
-								</div>
+								<img src="/LifeHub Logo.png" alt="LifeHub" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
 							</div>
 							<div className="p-6 flex flex-col flex-1">
-								<h4 className="font-bold text-lg text-text mb-2 group-hover:text-primary transition-colors">[Nom du Projet]</h4>
-								<p className="text-sm text-text-muted mb-6 line-clamp-2 leading-relaxed">[Courte description du projet. Quel problème résout-il et quelles technologies clés ont été utilisées ?]</p>
+								<h4 className="font-bold text-lg text-text mb-2 group-hover:text-primary transition-colors">[LifeHub]</h4>
+								<p className="text-sm text-text-muted mb-6 line-clamp-2 leading-relaxed">[Site Web de gestion de projet personnel - Suivi des idees,  etat des projets et passions]</p>
 								<div className="flex flex-wrap gap-2 mt-auto">
-									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Tech]</span>
-									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Tech]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Web]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Front - ts]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Back - sql]</span>
 								</div>
 							</div>
 						</a>
@@ -187,11 +186,12 @@ export default function Hero({ variant = 'default' }: HeroProps) {
 								</div>
 							</div>
 							<div className="p-6 flex flex-col flex-1">
-								<h4 className="font-bold text-lg text-text mb-2 group-hover:text-primary transition-colors">[Nom du Projet]</h4>
-								<p className="text-sm text-text-muted mb-6 line-clamp-2 leading-relaxed">[Courte description du projet. Quel problème résout-il et quelles technologies clés ont été utilisées ?]</p>
+								<h4 className="font-bold text-lg text-text mb-2 group-hover:text-primary transition-colors">[Transcendance]</h4>
+								<p className="text-sm text-text-muted mb-6 line-clamp-2 leading-relaxed">[Jeu Pong en multijoueur sur navigateur avec authentification, database, API, 2FA]</p>
 								<div className="flex flex-wrap gap-2 mt-auto">
-									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Tech]</span>
-									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Tech]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Front - TS]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Back - API - db]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Back - API - db]</span>
 								</div>
 							</div>
 						</a>
@@ -217,6 +217,66 @@ export default function Hero({ variant = 'default' }: HeroProps) {
 					</div>
 				</div>
 
+				{/* Bento 6: Projets Réalisés (Col Span 3) */}
+				<div className="col-span-1 md:col-span-3 bg-surface rounded-[var(--radius-xl)] p-8 shadow-lg border border-white/5 hover:border-primary/30 transition-colors">
+					<h3 className="text-xl font-bold mb-6 text-text border-b border-white/10 pb-4 flex justify-between items-center">
+						<span>Projets secondaires et notions apprises</span>
+					</h3>
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+						{/* Projet 1 */}
+						<a className="group rounded-2xl overflow-hidden bg-bg border border-white/5 hover:border-primary/50 hover:shadow-[0_0_30px_rgba(52,211,153,0.1)] transition-all flex flex-col h-full">
+							<div className="h-48 bg-gradient-to-br from-surface to-[var(--color-surface-hover)] relative overflow-hidden border-b border-white/5">
+								<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(52,211,153,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+								<img src="/raycasting.png" alt="raycasting" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+							</div>
+							<div className="p-6 flex flex-col flex-1">
+								<h4 className="font-bold text-lg text-text mb-2 group-hover:text-primary transition-colors">[Cub3D]</h4>
+								<p className="text-sm text-text-muted mb-6 line-clamp-2 leading-relaxed">[Jeu en vue a la 1er personne en 3D realise utilisant le raycasting]</p>
+								<div className="flex flex-wrap gap-2 mt-auto">
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[C]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Raycasting]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Maths ]</span>
+								</div>
+							</div>
+						</a>
+
+						{/* Projet 2 */}
+						<a href="#" className="group rounded-2xl overflow-hidden bg-bg border border-white/5 hover:border-primary/50 hover:shadow-[0_0_30px_rgba(52,211,153,0.1)] transition-all flex flex-col h-full">
+							<div className="h-48 bg-gradient-to-br from-surface to-[var(--color-surface-hover)] relative overflow-hidden border-b border-white/5">
+								<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(52,211,153,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+								<img src="/C++.png" alt="c++" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+							</div>
+							<div className="p-6 flex flex-col flex-1">
+								<h4 className="font-bold text-lg text-text mb-2 group-hover:text-primary transition-colors">[Piscine C++]</h4>
+								<p className="text-sm text-text-muted mb-6 line-clamp-2 leading-relaxed">[10 modules concu pour developper des bases solides en programmation c++ et oriente objet]</p>
+								<div className="flex flex-wrap gap-2 mt-auto">
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[C++]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Object Oriented]</span>
+								</div>
+							</div>
+						</a>
+
+						{/* Projet 3 */}
+						<a href="#" className="group rounded-2xl overflow-hidden bg-bg border border-white/5 hover:border-primary/50 hover:shadow-[0_0_30px_rgba(52,211,153,0.1)] transition-all flex flex-col h-full">
+							<div className="h-48 bg-gradient-to-br from-surface to-[var(--color-surface-hover)] relative overflow-hidden border-b border-white/5">
+								<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(52,211,153,0.1)_0%,transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+								<div className="absolute inset-0 flex items-center justify-center text-text-muted/40 font-mono text-sm group-hover:scale-110 transition-transform duration-700">
+									[Espace Image Projet 3]
+								</div>
+							</div>
+							<div className="p-6 flex flex-col flex-1">
+								<h4 className="font-bold text-lg text-text mb-2 group-hover:text-primary transition-colors">[Nom du Projet]</h4>
+								<p className="text-sm text-text-muted mb-6 line-clamp-2 leading-relaxed">[Courte description du projet. Quel problème résout-il et quelles technologies clés ont été utilisées ?]</p>
+								<div className="flex flex-wrap gap-2 mt-auto">
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Tech]</span>
+									<span className="text-[10px] uppercase font-bold text-primary bg-primary/10 border border-primary/20 px-2.5 py-1 rounded-md">[Tech]</span>
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
 			</div>
 		</section>
 	);
